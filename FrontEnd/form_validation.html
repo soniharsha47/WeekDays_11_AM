@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        #uerr{
+            color: red;
+            animation-name: uerr;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            transform: rotate(180deg);
+        }
+        @keyframes uerr{
+            0%{
+                font-size: 0px;
+                transform: rotate(0deg);
+            }
+            100%{
+                font-size: 15px;
+                transform: rotate(40deg);
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post" name="mine" onsubmit="return valid()">
+        <label>Name :</label>
+        <input type="text" name="uname" id="uname">
+        <span id="uerr"></span><br>
+        <label>Email : </label>
+        <input type="email" name="email" id="email"><br>
+        <input type="submit">
+
+    </form>
+
+    <script>
+        function valid(){
+        var uname = document.forms['mine']['uname'].value;
+        var email = document.forms['mine']['email'].value;
+        // document.write(uname+' '+email);
+        if(uname==''){
+            // alert('Name Field Is Required');
+            document.getElementById('uerr').innerHTML="name is required";
+            return false;
+        }
+        else if(uname.length<=3){
+            document.getElementById('uerr').innerHTML="name length must be 4 or more";
+            return false;
+        }
+
+    }
+    </script>
+</body>
+</html>

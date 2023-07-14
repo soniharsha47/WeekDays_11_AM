@@ -1,0 +1,19 @@
+What is DBMS ?
+> data Base Management System -> Concept
+
+What is RDBMS ?
+> Relational Database Management system -> Built Relation between Two or more collection 
+
+What is DataBase ?
+> Where you store data -> collections
+
+What is Collections ?
+> Where you store Documents -> single entry (document)
+
+What is Document ?
+> Entry of data(id,name,add,no)
+
+Types of DBms ?
+> NoSQL(no structure Query Lang.) , SQL(structure Query Lang)
+
+NoSQL -> MongoDB

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Account</title>
+</head>
+<body>
+    <h1>Heya User Please Register Here </h1>
+    <form action="/usreRegister" method="post">
+        <label>User Name : </label>
+        <input type="text" name="uname">
+        <label>Gender : </label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Other">Other
+        <label>User email : </label>
+        <input type="email" name="umail">
+        <label>Password : </label>
+        <input type="password" name="upassw">
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>

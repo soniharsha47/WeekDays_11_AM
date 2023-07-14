@@ -1,0 +1,175 @@
+< What is JS ?
+> Scripting lan
+> no 1
+> multytasking
+
+> Fram
+< react JS
+< Angular JS
+< Vue JS
+
+> Installation : 
+    > https://nodejs.org/en/download
+
+> Commands : 
+    < ls -- list
+    < cd dir name -- change dir
+    < node filename -- to run js file
+
+> syntax :
+    > console.log('print'); //  print in console
+    > document.write('print'); // print on webpage 
+
+> variables :
+    > container
+    > types :
+            > var -- global, old, temp
+            > let -- local, new , temp
+            > const - local , new, per
+    > syntax : 
+        > let/var/const varName = Value;
+
+> Data Types : 
+    > Number       - int, float , complex(a+bj)
+    > String       - character, word '90'
+    > Array/list - object  -- [ multy, multy type] -- [01,'name','mname']
+    > Dict       - object  -- {multy, multy type} -- {key:value} -- {'name':'Grras','mname':'Solution'}
+    > Bool         -- true-1 , false-0
+
+> Operators : 
+    Arithmetic      -- + - * / ..
+    Logical         -- AND OR NOT   
+    Assignment      -- = += -= *= /=
+    Condition       -- != < > <= >= == === {90===90}
+    bitwise         -- & | !
+    Membership      -- in, in not ( g in not grras)
+    Indentity       -- is, is not 
+    Typeof          -- typeof()
+
+> inbuilt - Function 
+    > typeof(...)
+
+> Errors :
+    > Reference
+    > Logic
+    > syntax
+
+>String methods:
+    String length
+    String slice()
+    String substring()
+    String substr()
+    String replace()
+    String replaceAll()
+    String toUpperCase()
+    String toLowerCase()
+    String concat()
+    String trim()
+    String trimStart()
+    String trimEnd()
+    String padStart()
+    String padEnd()
+    String charAt()
+    String charCodeAt()
+    String split()
+    String match(/[A-Z]/g)
+
+Harsha
+harsha
+
+>Array_List Method : 
+    concat()	Joins arrays and returns an array with the joined arrays
+    constructor	Returns the function that created the Array object's prototype
+    copyWithin()	Copies array elements within the array, to and from specified positions
+    entries()	Returns a key/value pair Array Iteration Object
+    every()	Checks if every element in an array pass a test
+    fill()	Fill the elements in an array with a static value
+    filter()	Creates a new array with every element in an array that pass a test
+    find()	Returns the value of the first element in an array that pass a test
+    findIndex()	Returns the index of the first element in an array that pass a test
+    forEach()	Calls a function for each array element
+    from()	Creates an array from an object
+    includes()	Check if an array contains the specified element
+    indexOf()	Search the array for an element and returns its position
+    isArray()	Checks whether an object is an array
+    join()	Joins all elements of an array into a string
+    keys()	Returns a Array Iteration Object, containing the keys of the original array
+    lastIndexOf()	Search the array for an element, starting at the end, and returns its position
+    length	Sets or returns the number of elements in an array
+    map()	Creates a new array with the result of calling a function for each array element
+    pop()	Removes the last element of an array, and returns that element
+    prototype	Allows you to add properties and methods to an Array object
+    push()	Adds new elements to the end of an array, and returns the new length
+    reduce()	Reduce the values of an array to a single value (going left-to-right)
+    reduceRight()	Reduce the values of an array to a single value (going right-to-left)
+    reverse()	Reverses the order of the elements in an array
+    shift()	Removes the first element of an array, and returns that element
+    slice()	Selects a part of an array, and returns the new array
+    some()	Checks if any of the elements in an array pass a test
+    sort()	Sorts the elements of an array
+    splice()	Adds/Removes elements from an array
+    toString()	Converts an array to a string, and returns the result
+    unshift()	Adds new elements to the beginning of an array, and returns the new length
+    valueOf()	Returns the primitive value of an array
+
+> Date Methods : 
+    new Date()
+    new Date(date string)
+    new Date(year,month)
+    new Date(year,month,day)
+    new Date(year,month,day,hours)
+    new Date(year,month,day,hours,minutes)
+    new Date(year,month,day,hours,minutes,seconds)
+    new Date(year,month,day,hours,minutes,seconds,ms)
+    new Date(milliseconds)
+
+> Math :
+    abs(x)	Returns the absolute value of x
+    acos(x)	Returns the arccosine of x, in radians
+    acosh(x)	Returns the hyperbolic arccosine of x
+    asin(x)	Returns the arcsine of x, in radians
+    asinh(x)	Returns the hyperbolic arcsine of x
+    atan(x)	Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians
+    atan2(y, x)	Returns the arctangent of the quotient of its arguments
+    atanh(x)	Returns the hyperbolic arctangent of x
+    cbrt(x)	Returns the cubic root of x
+    ceil(x)	Returns x, rounded upwards to the nearest integer
+    cos(x)	Returns the cosine of x (x is in radians)
+    cosh(x)	Returns the hyperbolic cosine of x
+    exp(x)	Returns the value of Ex
+    floor(x)	Returns x, rounded downwards to the nearest integer
+    log(x)	Returns the natural logarithm (base E) of x
+    max(x, y, z, ..., n)	Returns the number with the highest value
+    min(x, y, z, ..., n)	Returns the number with the lowest value
+    pow(x, y)	Returns the value of x to the power of y
+    random()	Returns a random number between 0 and 1
+    round(x)	Rounds x to the nearest integer
+    sign(x)	Returns if x is negative, null or positive (-1, 0, 1)
+    sin(x)	Returns the sine of x (x is in radians)
+    sinh(x)	Returns the hyperbolic sine of x
+    sqrt(x)	Returns the square root of x
+    tan(x)	Returns the tangent of an angle
+    tanh(x)	Returns the hyperbolic tangent of a number
+    trunc(x)	Returns the integer part of a number (x)
+
+> Function :
+    > function // normal function
+    > const/let/var // call back
+    > Emit function
+
+> DOM : 
+    > Document Object Model
+        > document.getElementById('idname').innerHTML/innerText='content';
+        > document.write('content');
+> BOM
+    > Browser Object Model
+    > Console
+    > Pop up box:
+        > alert('content');
+        > confirm('content');
+> Onclick :
+    > <elemnt onclick='method'>...</element> 
+
+> strict mode:
+    > 'use strict'
+    > Follow the syntax properly

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event with function</title>
+    <style>
+        .sh{
+            text-align: center;
+            font-size: 70px;
+            color: white;
+            text-shadow: 0px 0px 5px red,2px 2px 5px blue, 4px 4px 5px green;
+            /* box-shadow: 0px 0px 5px 5px red; */
+        }
+        .fl{
+                height: 100px;
+                width: 100px;
+                border: 2px solid salmon;
+                margin: 1%;
+                float: left;
+            }
+            .main{
+                width: 100%;
+                border: 2px solid black;
+                overflow:auto;
+            }
+    </style>
+</head>
+<body>
+   
+    <button onclick="mine()">Shadow</button>
+    <button onclick="basic()">basic file</button>
+    <div id="para">
+        <div class="main">
+            <div class="fl">1</div>
+            <div class="fl">2</div>
+            <div class="fl">3</div>
+            <div class="fl">4</div>
+            <div class="fl">4</div>
+            <div class="fl">4</div>
+            <div class="fl">4</div>
+            <div class="fl">4</div>
+            <div class="fl">4</div>
+    </div>
+    <script>
+        function mine(){
+            document.getElementById('para').innerHTML=`<div class="sh">Grras Solution</div>`;
+        }
+        function basic(){
+            document.getElementById('para').innerHTML=`<h1>heading 1</h1>
+        <h2>heading 2</h2>
+        <h3>heading 3</h3>
+        <h4>heading 4</h4>
+        <h5>heading 5</h5>
+        <h6>heading 6</h6>
+        <hr>
+        <p>hello <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i am para tag</p>
+        <pre>hello 
+    i am pre tag</pre>
+    <address>2nd floor,Nishka Avenue<br>
+    Navaragpura<br>Ahmedabad-000000</address>`;
+
+        }
+    </script>
+</body>
+</html>
